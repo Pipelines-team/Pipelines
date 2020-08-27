@@ -123,3 +123,41 @@ Podemos dividir por features la arquitectura de la primera clase "PipelineClass"
 # Objectivo Final
 
 Si bien esto puede tener pinta de "pet project" podría ser una buena solución de nivel de MLOps, he visto algunas empresas que hacen cosas similares, solo que agregan un modelo al final y unas conexiones a bases de datos al inicio con una interfaz bonita. bien optimizado esto podría llegar resultar en algo similar, pero mi opinión dándole fuerza a servicios adicionales como docker, lambda de AWS o Cloud functions de GCP.
+
+# Primeros pipelines abordan:
+## sklearn.preprocessing: Preprocessing and Normalization
+The [sklearn.preprocessing](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.preprocessing) module includes scaling, centering, normalization, binarization methods.
+
+User guide: See the [Preprocessing data](https://scikit-learn.org/stable/modules/preprocessing.html#preprocessing) section for further details.
+
+Metodo | Description
+---|---
+preprocessing.Binarizer(*[, threshold, copy]) | Binarize data (set feature values to 0 or 1) according to a threshold
+preprocessing.FunctionTransformer([func, …]) | Constructs a transformer from an arbitrary callable.
+preprocessing.KBinsDiscretizer([n_bins, …]) | Bin continuous data into intervals.
+preprocessing.KernelCenterer() | Center a kernel matrix
+preprocessing.LabelBinarizer(*[, neg_label, …]) | Binarize labels in a one-vs-all fashion
+preprocessing.LabelEncoder | Encode target labels with value between 0 and n_classes-1.
+preprocessing.MultiLabelBinarizer(*[, …]) | Transform between iterable of iterables and a multilabel format
+preprocessing.MaxAbsScaler(*[, copy]) | Scale each feature by its maximum absolute value.
+preprocessing.MinMaxScaler([feature_range, copy]) | Transform features by scaling each feature to a given range.
+preprocessing.Normalizer([norm, copy]) | Normalize samples individually to unit norm.
+preprocessing.OneHotEncoder(*[, categories, …]) | Encode categorical features as a one-hot numeric array.
+preprocessing.OrdinalEncoder(*[, …]) | Encode categorical features as an integer array.
+preprocessing.PolynomialFeatures([degree, …]) | Generate polynomial and interaction features.
+preprocessing.PowerTransformer([method, …]) | Apply a power transform featurewise to make data more Gaussian-like.
+preprocessing.QuantileTransformer(*[, …]) | Transform features using quantiles information.
+preprocessing.RobustScaler(*[, …]) | Scale features using statistics that are robust to outliers.
+preprocessing.StandardScaler(*[, copy, …]) | Standardize features by removing the mean and scaling to unit variance
+preprocessing.add_dummy_feature(X[, value]) | Augment dataset with an additional dummy feature.
+preprocessing.binarize(X, *[, threshold, copy]) | Boolean thresholding of array-like or scipy.sparse matrix
+preprocessing.label_binarize(y, *, classes) | Binarize labels in a one-vs-all fashion
+preprocessing.maxabs_scale(X, *[, axis, copy]) | Scale each feature to the [-1, 1] range without breaking the sparsity.
+preprocessing.minmax_scale(X[, …]) | Transform features by scaling each feature to a given range.
+preprocessing.normalize(X[, norm, axis, …]) | Scale input vectors individually to unit norm (vector length).
+preprocessing.quantile_transform(X, *[, …]) | Transform features using quantiles information.
+preprocessing.robust_scale(X, *[, axis, …]) | Standardize a dataset along any axis
+preprocessing.scale(X, *[, axis, with_mean, …]) | Standardize a dataset along any axis
+preprocessing.power_transform(X[, method, …]) | Power transforms are a family of parametric, monotonic transformations that are applied to make data more Gaussian-like.
+
+Go Python! :facepunch:
