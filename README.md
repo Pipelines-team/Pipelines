@@ -3,8 +3,8 @@
 Data Pipeline automatizado para  generar rápidamente features para un modelo de Machine learning de aprendizaje supervisado o no supervisado, contando con las siguiente características:
 
 - Trabaja por tipo de datos, altamente parametrizado (Pero completamente automático si se requieren)
-    - Imputación de datos ( "impute:mean", "impute:median", "impute:mode")
-    - Reescalamiento ("scale:zstd", "scale:norm", "scale:maxmin")
+    - Imputación de datos ```( "impute:mean", "impute:median", "impute:mode")```
+    - Reescalamiento ```("scale:zstd", "scale:norm", "scale:maxmin")```
     - Onehot encoding - Por defecto
     - feature encoding
     - Outlier treatment
