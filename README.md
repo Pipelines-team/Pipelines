@@ -4,9 +4,10 @@ This library corresponds to part of the work of:
  - [Sergio A. Mora Pardo](https://sergiomora03.github.io/)
  - [Miguel Arquez Abdala](https://github.com/abdala9512)
  
- ![GitHub Release Date](https://img.shields.io/github/release-date/Pipelines-team/Pipelines) ![GitHub last commit](https://img.shields.io/github/last-commit/Pipelines-team/Pipelines)
- 
+
 # Pipelines project [![HitCount](http://hits.dwyl.com/Pipelines-team/Pipelines.svg)](http://hits.dwyl.com/Pipelines-team/Pipelines)
+
+ ![GitHub Release Date](https://img.shields.io/github/release-date/Pipelines-team/Pipelines) ![GitHub last commit](https://img.shields.io/github/last-commit/Pipelines-team/Pipelines)
 
 Data Pipeline automatizado para  generar rápidamente features para un modelo de Machine learning de aprendizaje supervisado o no supervisado, contando con las siguiente características:
 
