@@ -1,4 +1,12 @@
-# Pipelines project
+![GitHub top language](https://img.shields.io/github/languages/top/Pipelines-team/Pipelines) ![GitHub](https://img.shields.io/github/license/Pipelines-team/Pipelines) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Pipelines-team/Pipelines/issues)
+
+This library corresponds to part of the work of:
+ - [Sergio A. Mora Pardo](https://sergiomora03.github.io/)
+ - [Miguel Arquez Abdala](https://github.com/abdala9512)
+ 
+ ![GitHub Release Date](https://img.shields.io/github/release-date/Pipelines-team/Pipelines) ![GitHub last commit](https://img.shields.io/github/last-commit/Pipelines-team/Pipelines)
+ 
+# Pipelines project [![HitCount](http://hits.dwyl.com/Pipelines-team/Pipelines.svg)](http://hits.dwyl.com/Pipelines-team/Pipelines)
 
 Data Pipeline automatizado para  generar rápidamente features para un modelo de Machine learning de aprendizaje supervisado o no supervisado, contando con las siguiente características:
 
@@ -105,12 +113,12 @@ Estos features son opcionales y definitivamente no los sugiero para la primera f
 - Parámetro de optimización dependiendo del problema: por ejemplo si el pipeline está pensado para modelos de respuesta binaria, multivariada, de variable continua o NN habría aspectos de FE o transformaciones que deberíamos optimizar (incluso si el algoritmo es no supervisado, como en clustering, asegurarnos que algunos pasos como el de reescalamiento estén resueltos con los argumentos por defecto y no trasladar la tarea al usuario)
 - Tener opción para  guardar los datos en distintos archivos tipo, csv, sql, excel, S3, GCS para que adquiera utilidad como parte de un sistema
 
-**Flujo de trabajo sugerido**
+ ## Flujo de trabajo sugerido
 
 No tengo mucho conocimiento pero podríamos enfocarnos en TDD (Test driven development), seleccionaríamos unos 2 o tres datasets de kaggle para probar los métodos y trabajaríamos sobre pruebas unitarias del código usado algún servicio de integración continua (Los más populares son TravisCI, CircleCI o jenkins)
 
 Podemos dividir por features la arquitectura de la primera clase "PipelineClass" y trabajar en el método fit, que es el que demanda más trabajo y coordinación al tener tantas cosas, pienso nos apoyemos todo lo que podamos en métodos anónimos que alimenten a fit o modularizar en otras clases procesos importantes y luego llamarlos en la clase  "PipelineClass".
 
-**Objetivo final**
+# Objectivo Final
 
 Si bien esto puede tener pinta de "pet project" podría ser una buena solución de nivel de MLOps, he visto algunas empresas que hacen cosas similares, solo que agregan un modelo al final y unas conexiones a bases de datos al inicio con una interfaz bonita. bien optimizado esto podría llegar resultar en algo similar, pero mi opinión dándole fuerza a servicios adicionales como docker, lambda de AWS o Cloud functions de GCP.
