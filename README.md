@@ -4,6 +4,12 @@ This library corresponds to part of the work of:
  - [Sergio A. Mora Pardo](https://sergiomora03.github.io/)
  - [Miguel Arquez Abdala](https://github.com/abdala9512)
  
+ **Contributors**
+<a href="https://github.com/Pipelines-team/pipelines/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=Pipelines-team/pipelines" />
+</a>
+
+ 
  **Languages and Tools:**
  
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
