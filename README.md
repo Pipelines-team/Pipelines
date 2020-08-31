@@ -4,8 +4,15 @@ This library corresponds to part of the work of:
  - [Sergio A. Mora Pardo](https://sergiomora03.github.io/)
  - [Miguel Arquez Abdala](https://github.com/abdala9512)
  
+ **Languages and Tools:**
+ 
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
+<code><img height="20" src="https://github.com/scikit-learn/scikit-learn/blob/master/doc/logos/scikit-learn-logo-notext.png?raw=true?raw=true"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/pandas-dev/pandas/094c7ca008643dae47fe64345c6cd04e3fc50d6d/web/pandas/static/img/pandas_mark.svg?raw=true?raw=true"></code>
+<code><img height="20" src="https://camo.githubusercontent.com/37d9964b95f38c96ed2cce75182f7ebda4b90f64/68747470733a2f2f676863646e2e7261776769742e6f72672f6e756d70792f6e756d70792f6d61737465722f6272616e64696e672f69636f6e732f7072696d6172792f6e756d70796c6f676f2e737667"></code>
 
-# Pipelines project [![HitCount](http://hits.dwyl.com/Pipelines-team/Pipelines.svg)](http://hits.dwyl.com/Pipelines-team/Pipelines)
+
+# Pipelines project ![Powered-Pipelines-orange](https://img.shields.io/badge/Powered-Pipelines-orange?logo=Jupyter)
 
  ![GitHub Release Date](https://img.shields.io/github/release-date/Pipelines-team/Pipelines) ![GitHub last commit](https://img.shields.io/github/last-commit/Pipelines-team/Pipelines)
 
