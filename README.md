@@ -1,10 +1,12 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/Pipelines-team/Pipelines) ![GitHub](https://img.shields.io/github/license/Pipelines-team/Pipelines) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Pipelines-team/Pipelines/issues)
 
-This library corresponds to part of the work of <a href="https://www.buymeacoffee.com/sergiomorapardo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Us A Coffee" width="100" ></a>:
+This library corresponds to part of the work of:
  - [Sergio A. Mora Pardo](https://sergiomora03.github.io/)
  - [Miguel Arquez Abdala](https://github.com/abdala9512)
  
- **Contributors**
+If you want to contribute or support us either because you are interested in our project or you see that it can help you, you can buy us a coffee 👉👈 <a href="https://www.buymeacoffee.com/sergiomorapardo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Us A Coffee" width="100" ></a>
+ 
+**Contributors**
 <a href="https://github.com/Pipelines-team/pipelines/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=Pipelines-team/pipelines" />
 </a>
