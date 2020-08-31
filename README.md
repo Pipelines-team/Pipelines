@@ -1,6 +1,6 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/Pipelines-team/Pipelines) ![GitHub](https://img.shields.io/github/license/Pipelines-team/Pipelines) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Pipelines-team/Pipelines/issues)
 
-This library corresponds to part of the work of:
+This library corresponds to part of the work of <a href="https://www.buymeacoffee.com/sergiomorapardo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Us A Coffee" width="100" ></a>:
  - [Sergio A. Mora Pardo](https://sergiomora03.github.io/)
  - [Miguel Arquez Abdala](https://github.com/abdala9512)
  
