@@ -20,7 +20,7 @@ If you want to contribute or support us either because you are interested in our
 <code><img height="20" src="https://camo.githubusercontent.com/37d9964b95f38c96ed2cce75182f7ebda4b90f64/68747470733a2f2f676863646e2e7261776769742e6f72672f6e756d70792f6e756d70792f6d61737465722f6272616e64696e672f69636f6e732f7072696d6172792f6e756d70796c6f676f2e737667"></code>
 
 
-# Pipelines project ![Powered-Pipelines-orange](https://img.shields.io/badge/Powered-Pipelines-orange?logo=Jupyter)
+# Pipelines project ![Powered-Pipelines-orange](https://img.shields.io/badge/Powered-Pipelines_team-orange?logo=Jupyter)
 
  ![GitHub Release Date](https://img.shields.io/github/release-date/Pipelines-team/Pipelines) ![GitHub last commit](https://img.shields.io/github/last-commit/Pipelines-team/Pipelines)
 
