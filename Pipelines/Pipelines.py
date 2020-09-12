@@ -38,7 +38,7 @@ from sklearn.preprocessing import *
 from sklearn.pipeline import make_pipeline # Construct a Pipeline from the given estimators.
 from sklearn.pipeline import Pipeline # Construct a pipeline of transforms with a final estimator.
 # from .Pipelines import CustomImputer - initially, based on an sklearn
-
+from sklearn.impute import SimpleImputer
 
 class PipelineClass(Pipeline):
 
@@ -60,6 +60,7 @@ class PipelineClass(Pipeline):
         self.dataframe_transformed_ = None
         self.report_ = None
         self.split = split
+        self.__fitted = False
 
     # This method 
     def _audit_params(self):
@@ -85,7 +86,7 @@ class PipelineClass(Pipeline):
 
     def fit(self, dataframe):
         """Execute Pipeline
-
+        [Include here all Pipeline logic]
         Parameters
         ----------
 
@@ -96,7 +97,7 @@ class PipelineClass(Pipeline):
         if self.impute is not None:
             # The imputer could be a class as complex as we want, but independent of the PipelineClass
             # The same logic applies to transformers, encoders, etc..
-            imputer = CustomImputer() 
+            imputer = SimpleImputer()
 
         return self
     
@@ -108,8 +109,12 @@ class PipelineClass(Pipeline):
     def transform(self):
         pass
 
-    def export_data(self, type='csv', path, **kwargs):
-        self.dataframe_transformed_.to_csv(path, **kwargs)
+    def export_data(self, path, type="csv"):
+        if self.dataframe_transformed_ is None:
+            raise Exception("Transformed dataframe haven't fitted.")
+        else:
+            if type=='csv':
+                self.dataframe_transformed_.to_csv(path, **kwargs)
         
 
     def get_feature_names(self):
@@ -122,4 +127,3 @@ class PipelineClass(Pipeline):
     @classmethod
     def some_transformer(cls, **kwargs):
         pass
-
